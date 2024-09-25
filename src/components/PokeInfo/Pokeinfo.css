@@ -1,0 +1,63 @@
+.name {
+  width: 100%;
+  height: 40px;
+  background-color: coral;
+  border-radius: 15px;
+  display: grid;
+  place-items: center;
+}
+
+.pokemon-main-info {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.typesList {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.typeItem {
+  width: 100px;
+  height: 50px;
+  display: grid;
+  place-items: center;
+  border-radius: 12px;
+  background-color: beige;
+}
+
+.stats {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+
+.stat-box {
+  width: 200px;
+  height: 50px;
+  display: grid;
+  place-items: center;
+  border-radius: 12px;
+  text-align: center;
+}
+
+.speed {
+  background-color: lightblue;
+}
+.special-attack {
+  background-color: lightgreen;
+}
+.special-defense {
+  background-color: lightpink;
+}
+.defense {
+  background-color: lightgray;
+}
+.attack {
+  background-color: lightyellow;
+}
+.hp {
+  background-color: lightcoral;
+}
